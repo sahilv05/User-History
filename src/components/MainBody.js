@@ -6,22 +6,16 @@ function MainBody() {
 	return (
 		<div>
 			<div>
-				<p>hello {name + ' ' + surname}</p>
-				<br />
-				<p>hello again {`${name} ${surname}`}</p>
+				<p>
+					<center>
+						<b>Hello {name + ' ' + surname}</b>
+					</center>
+				</p>
 			</div>
 			<br />
 			<hr />
 			<input type="checkbox" />
-			<p>This is placeholder</p>
-			<input type="checkbox" />
-			<p>This is placeholder</p>
-			<input type="checkbox" />
-			<p>This is placeholder</p>
-			<input type="checkbox" />
-			<p>This is placeholder</p>
-			<input type="checkbox" />
-			<p>This is placeholder</p>
+			<p>Choose to start</p>
 		</div>
 	);
 }
